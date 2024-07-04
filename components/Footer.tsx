@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='h-32 flex flex-col justify-center bg-sky-100 p-12 md:mt-9 '>
       <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-        <p className="text-sm text-gray-500 dark:text-gray-300">© Copyright 2024. All Rights Reserved Md Regone Hossain .</p>
+        <p className="text-sm text-gray-500 dark:text-gray-300 text-center">© Copyright 2024. All Rights Reserved Md Regone Hossain .</p>
 
         <div className="flex -mx-2 gap-3 text-3xl ">
 

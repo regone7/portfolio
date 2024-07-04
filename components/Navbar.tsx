@@ -27,6 +27,7 @@ const Navbar = () => {
                             <li><Link href='#skills'>Skills</Link></li>
                             <li><Link href='#projects'>Projects</Link></li>
                             <li><Link href='#education'>Education</Link></li>
+                            <li><Link href='#contact'>Contact</Link></li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-3xl bg-gradient-to-r from-orange-400 via-pink-400 to-rose-600 bg-clip-text text-transparent">Regone Portfolio</a>
