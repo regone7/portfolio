@@ -33,13 +33,11 @@ const Navbar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-3xl">Regone Portfolio</a>
+                    <a className="btn btn-ghost text-3xl bg-gradient-to-r from-orange-400 via-pink-400 to-rose-600 bg-clip-text text-transparent">Regone Portfolio</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        
-                        
-                       
+                          
                     </ul>
                 </div>
                 

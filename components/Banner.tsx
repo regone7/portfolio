@@ -2,6 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { GrLinkNext } from 'react-icons/gr'
+import Skills from './Skills'
+import Projects from './Projects'
+import Education from './Education'
+
+import ContactInfo from './ContactInfo'
+
 
 
 function Banner() {
@@ -12,20 +18,20 @@ function Banner() {
                     <div className='md:w-[65%] flex flex-col justify-end'>
                         <p>Hi, This is </p>
                         <h1 className='text-3xl'>Md Regone Hossain</h1>
-                        <p>  Web Developer  </p>
+                        <p className='text-2xl'>  Web Developer  </p>
                         <p> I am a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. My expertise extends to popular web development technologies like React.js, MongoDB, Firebase, Node.js, Express.js and currently learning Next.js, TypeScript. I am proficient in crafting responsive and visually appealing user interfaces using frameworks like Tailwind.</p>
                         <a href="https://drive.google.com/file/d/1ksTSGIYLbOsCXyr2FPMEBYS4fuSyE4Wq/view?usp=sharing" target="_blank"><button className='btn border-2 border-black hover:bg-green-300 mt-3'>Download Resume <GrLinkNext /></button></a>
                         <div className='flex mt-3 gap-2 text-3xl'>
                             <div>
                                 <a href="https://github.com/regone7" target="_blank"><FaGithub /></a>
                             </div>
-                            <div>
+                            <div className='text-blue-700'>
                                 <a href="https://www.facebook.com/abuj.mon.359" target="_blank"><FaFacebook /></a>
-                                
+
                             </div>
-                            <div>
+                            <div className='text-blue-500'>
                                 <a href="https://www.linkedin.com/in/md-regone-hossain" target="_blank"><FaLinkedin /></a>
-                                
+
                             </div>
                         </div>
                         <div>Email: regone12345@gmail.com</div>
@@ -42,7 +48,18 @@ function Banner() {
                 </div>
             </section>
             <section>
-
+                <Skills></Skills>
+            </section>
+            <section>
+                <Projects />
+            </section>
+            <section>
+                <Education />
+            </section>
+            <section >
+                <ContactInfo></ContactInfo>
+                
+                
             </section>
         </div>
     )
