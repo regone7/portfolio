@@ -1,10 +1,11 @@
 import React from 'react'
 import { GrFormNextLink } from 'react-icons/gr'
+import Navbar from './Navbar'
 
 function Projects() {
     return (
         <div>
-            <div className='container mx-auto md:p-5 p-3'>
+            <div id='projects' className='container mx-auto md:p-5 p-3'>
                 <h1 className='text-xl font-bold text-center md:mt-3 md:mb-7  mt-3'>Projects</h1>
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
                     <div className="card bg-base-100  shadow-xl rounded-none">

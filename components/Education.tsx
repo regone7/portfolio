@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function Education() {
     return (
         <div>
-            <div>
+            <div id='education'>
                 <h1 className='text-xl font-bold text-center md:mt-9 md:mb-3  mt-3'>Educational Qualifiaction</h1>
                 <div className='flex flex-col justify-center items-center  p-1'>
                     <h1>Daffodil International University</h1>

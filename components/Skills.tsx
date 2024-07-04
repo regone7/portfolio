@@ -4,10 +4,11 @@ import { GiBrain } from 'react-icons/gi'
 import { GrCatalogOption } from 'react-icons/gr'
 import { HiOutlineCommandLine } from 'react-icons/hi2'
 import { SiFramework } from 'react-icons/si'
+import Navbar from './Navbar'
 
 function Skills() {
   return (
-    <div className='container mx-auto md:p-5 p-3'>
+    <div id='skills' className='container mx-auto md:p-5 p-3'>
       <h1 className='text-xl font-bold text-center md:mt-3 md:mb-7 mb-5 mt-3'>Skills</h1>
       <div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
